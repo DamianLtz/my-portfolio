@@ -11,8 +11,7 @@ export const Footer = () => {
             <p className="text-xl text-white">
               Si te interesó mi perfil, podés enviarme un mail a:
             </p>
-            {/* <p className="cursor-default inline-block text-xl text-white transition-all hover:text-azul-500">damianlaterza@gmail.com</p> */}
-            <Tooltip text="damianlaterza@gmail.com" tooltipText="Copiar al portapapeles"/>
+            <Tooltip text="damianlaterza@gmail.com"/>
           </div>
           <div className="col-span-12 lg:col-span-6">
             <div className="flex items-center justify-evenly lg:justify-center pt-5">
