@@ -5,7 +5,7 @@
 
 - 📌 Me gustaria aprender en un futuro cercano: **Vue.js**
 
-- 👨‍💻 Aquí podes ver mi portfolio y proyectos: [https://portfolio-zeta-topaz-63.vercel.app/]
+- 👨‍💻 Aquí podes ver mi portfolio y proyectos: [https://portfolio-damian-laterza.vercel.app/]
 
 - 📄 Sobre mi:
   Soy desarrollador Frontend React, me gusta trabajar en equipo con diseñadores para producir una web pixel perfect y tengo mucho interés en seguir desarrollandome en Front end y accesibilidad web. <br /> Busco nuevas oportunidades como desarrollador Front end que me permitan trabajar en equipo y seguir aprendiendo.
