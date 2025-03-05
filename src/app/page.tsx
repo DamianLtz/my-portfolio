@@ -11,5 +11,3 @@ export default function Home() {
     </main>
   );
 }
-
-/* Falta arreglar las animaciones del navbar y demás */
