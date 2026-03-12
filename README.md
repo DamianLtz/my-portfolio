@@ -16,7 +16,7 @@
 
 - 🚀 **Frontend Developer** especializado en **React + TypeScript**
 - 🎨 Me apasiona crear interfaces **pixel perfect** con gran atención al detalle
-- 🌐 Trabajo con **React 19, Tailwind CSS v4, Three.js y shadcn/ui**
+- 🌐 Trabajo con **React 19, Next.js, Tailwind CSS v4 y shadcn/ui**
 - 📚 Aprendiendo actualmente: **NestJS** y desarrollo backend con Node.js
 - 🤝 Busco oportunidades para trabajar en equipo y seguir creciendo en **Frontend & Accesibilidad Web**
 - 📍 Argentina 🇦🇷
@@ -52,13 +52,14 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Antigravity](https://img.shields.io/badge/Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
 ### Backend & Base de datos
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Neon](https://img.shields.io/badge/Neon-00E599?style=for-the-badge&logo=neon&logoColor=black)
 
 ### 🌱 Aprendiendo ahora
 

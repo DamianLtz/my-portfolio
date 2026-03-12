@@ -25,12 +25,12 @@ const contactLinks = [
       </svg>
     ),
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/damian-laterza-54602b170/",
+    href: "https://www.linkedin.com/in/damian-laterza/",
   },
   {
     icon: <Download className="size-5" />,
     label: "Descargar CV",
-    href: "/cv.pdf", // Asegúrate de tener el CV en la carpeta public o ajusta el link
+    href: "/CV_Damian_Laterza.pdf",
     isDownload: true,
   },
 ];

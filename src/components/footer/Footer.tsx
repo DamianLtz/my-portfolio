@@ -17,7 +17,7 @@ export default function Footer() {
             GitHub
           </a>
           <a
-            href="https://www.linkedin.com/in/damian-laterza-54602b170/"
+            href="https://www.linkedin.com/in/damian-laterza/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-500 hover:text-white transition-colors text-sm"
@@ -25,7 +25,9 @@ export default function Footer() {
             LinkedIn
           </a>
           <a
-            href="/cv.pdf"
+            href="/CV_Damian_Laterza.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-gray-500 hover:text-white transition-colors text-sm"
           >
             CV
