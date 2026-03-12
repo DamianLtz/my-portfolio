@@ -80,6 +80,7 @@ body {
   font-family: "Open Sans", sans-serif;
   /* background-color: #00000c; */
   color: #ffffff;
+  scroll-behavior: smooth;
 }
 
 @utility btn-proyects {
