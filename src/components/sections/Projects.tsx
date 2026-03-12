@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function Projects() {
   return (
-    <Container classname="py-20" as="section">
+    <Container classname="py-20" as="section" id="proyectos">
       <div className="flex items-center gap-4 mb-12">
         <h2 className="text-lg font-semibold uppercase text-spectrum-blue-400">
           Proyectos

@@ -37,7 +37,7 @@ const contactLinks = [
 
 export default function Contactme() {
   return (
-    <Container classname="py-24" as="section">
+    <Container classname="py-24" as="section" id="contacto">
       <div className="flex items-center gap-4 mb-12">
         <h2 className="text-lg font-semibold uppercase text-spectrum-blue-400">
           Contacto

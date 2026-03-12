@@ -29,12 +29,12 @@ export default function Header() {
           <p className="text-3xl font-bold">DL</p>
           <ul className="flex items-center gap-6">
             <li>
-              <a href="#" className="underline-links">
+              <a href="#proyectos" className="underline-links">
                 Proyectos
               </a>
             </li>
             <li>
-              <a href="#" className="underline-links">
+              <a href="#contacto" className="underline-links">
                 Contacto
               </a>
             </li>
