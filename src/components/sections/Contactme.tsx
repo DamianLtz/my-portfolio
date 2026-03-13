@@ -45,7 +45,7 @@ export default function Contactme() {
         <hr className="w-1/16 border-gray-800" />
       </div>
 
-      <div className="grid grid-cols-12 gap-8 lg:gap-16">
+      <div className="grid grid-cols-12 gap-4 md:gap-8 lg:gap-16">
         <div className="col-span-12 lg:col-span-6 space-y-8">
           <h3 className="text-4xl lg:text-6xl font-bold text-white tracking-tight">
             Hablemos.

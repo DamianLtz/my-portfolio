@@ -12,20 +12,20 @@ export default function Aboutme() {
         </h2>
         <hr className="w-1/16 border-gray-800" />
       </div>
-      <div className="grid grid-cols-12 gap-8 my-6">
+      <div className="grid grid-cols-12 gap-4 lg:gap-8 my-6">
         <div className="col-span-12 lg:col-span-6 space-y-8 text-gray-400">
           <h3 className="text-4xl font-bold">Más que frontend</h3>
-          <p className="text-inherit">
+          <p className="text-inherit max-w-[64ch]">
             Un perfil fullstack con foco en interfaces de datos, herramientas
             internas y sistemas en producción.
           </p>
-          <p className="text-inherit">
+          <p className="text-inherit max-w-[64ch]">
             Soy developer con foco en{" "}
             <strong className="text-white">aplicaciones web complejas</strong>:
             backoffices, dashboards de datos y herramientas de gestión que
             equipos reales usan a diario.
           </p>
-          <p className="text-inherit">
+          <p className="text-inherit max-w-[64ch]">
             Me especializo en el stack{" "}
             <strong className="text-white">React / Next.js + TypeScript</strong>{" "}
             con integraciones fullstack via Prisma y Supabase. También tengo
@@ -33,7 +33,7 @@ export default function Aboutme() {
             <strong className="text-white">PHP legacy</strong> agregándoles un
             frontend sólido con React + Inertia.js.
           </p>
-          <p className="text-inherit">
+          <p className="text-inherit max-w-[64ch]">
             Trabajo bien con equipos de diseño y product, entiendo el negocio y
             me adapto rápido. El código que entrego es mantenible, escalable y
             hecho para durar.

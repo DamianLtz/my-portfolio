@@ -1,11 +1,12 @@
 import { Helmet } from "react-helmet-async";
-import Beams from "./components/beams/Beams";
+// import Beams from "./components/beams/Beams";
 import Header from "./components/header/Header";
 import Hero from "./components/sections/Hero";
 import Projects from "./components/sections/Projects";
 import Aboutme from "./components/sections/Aboutme";
 import Contactme from "./components/sections/Contactme";
 import Footer from "./components/footer/Footer";
+import DarkVeil from "./components/DarkVeil";
 
 function App() {
   return (
@@ -52,8 +53,8 @@ function App() {
       </Helmet>
       <Header />
       <div className="relative w-full h-dvh">
-        <div className="fixed inset-0 z-0">
-          <Beams
+        <div className="absolute inset-0 z-0">
+          {/* <Beams
             beamWidth={3}
             beamHeight={30}
             beamNumber={20}
@@ -62,15 +63,18 @@ function App() {
             noiseIntensity={1.5}
             scale={0.2}
             rotation={30}
-          />
+          /> */}
+          <DarkVeil hueShift={20} speed={1.5} />
+          <div className="absolute bottom-0 left-0 w-full h-48 md:h-96 bg-linear-to-t from-[#080808] to-transparent pointer-events-none" />
         </div>
         <main className="relative z-10 grid">
-          <Hero />
-          <hr className="container mx-auto px-6 border-gray-700" />
-          <div className="divide-y divide-gray-700">
-            <Aboutme />
-            <Projects />
-            <Contactme />
+          <div className="grid grid-cols-12">
+            <div className="col-span-12">
+              <Hero />
+              <Aboutme />
+              <Projects />
+              <Contactme />
+            </div>
           </div>
         </main>
         <Footer />
