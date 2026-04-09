@@ -1,10 +1,91 @@
 import type { Project } from "@/types/types";
 
 export const proyectos: Project[] = [
+  // {
+  //   id: "escuelas-verdes",
+  //   date: "2026",
+  //   title: "Escuelas Verdes",
+  //   inProgress: true,
+  //   description:
+  //     "Refactorización integral y modernización de una plataforma heredada (legacy) para el Ministerio de Educación de la Ciudad de Buenos Aires.",
+  //   technologies: [
+  //     "React",
+  //     "Inertia.js",
+  //     "TypeScript",
+  //     "PHP",
+  //     "Laravel",
+  //     "MySQL",
+  //     "MariaDB",
+  //     "Shadcn/ui",
+  //     "Recharts",
+  //     "Tailwind",
+  //     "Claude.ai",
+  //   ],
+  //   images: [],
+  // },
+  {
+    id: "seguilo-app",
+    inProgress: true,
+    date: "2026 - 2027",
+    title: "Seguilo",
+    description:
+      "Plataforma de Control Logístico. Rediseño y desarrollo desde cero del frontend de una plataforma integral para el seguimiento y gestión de paquetería. La aplicación permite a clientes y distribuidoras administrar recepciones, entregas y devoluciones en tiempo real, incluyendo escaneo de códigos QR y procesamiento por lotes (batch). Migrada de una arquitectura legacy a una Single Page Application (SPA) moderna, rápida y escalable.",
+    technologies: [
+      "React",
+      "Vite 7",
+      "TypeScript",
+      "shadcn/ui",
+      "Recharts",
+      "Tailwind",
+    ],
+    images: [
+      "/projects/seguilo-app/01.jpeg",
+      "/projects/seguilo-app/02.jpeg",
+      "/projects/seguilo-app/03.jpeg",
+      "/projects/seguilo-app/04.jpeg",
+    ],
+    imageAspect: "portrait",
+  },
+  {
+    id: "materiales-escolares",
+    date: "2026",
+    title: "Materiales escolares",
+    description:
+      "Refactorización integral y modernización de una plataforma heredada (legacy) para el Ministerio de Educación de la Ciudad de Buenos Aires. \n\n Su objetivo es gestionar de manera centralizada el ciclo completo de provisión de materiales de estudio escolar; permitiendo definir períodos de solicitud, administrar catálogos y gestionar la logística de entregas y reclamos. \n\n La modernización del sistema fue potenciada mediante el uso de IA para la optimización de código y la aceleración de tareas repetitivas. \n\n *Nota: Algunas imágenes fueron tomadas con herramientas de captura de página completa del navegador, por lo que ciertos elementos fijos de la interfaz pueden presentar ligeras variaciones visuales respecto a su aspecto real.",
+    technologies: [
+      "React",
+      "Inertia.js",
+      "TypeScript",
+      "PHP",
+      "Laravel",
+      "MySQL",
+      "MariaDB",
+      "Shadcn/ui",
+      "Recharts",
+      "Tailwind",
+      "Claude.ai",
+    ],
+    images: [
+      "/projects/materiales-escolares/01.png",
+      "/projects/materiales-escolares/02.jpeg",
+      "/projects/materiales-escolares/03.jpeg",
+      "/projects/materiales-escolares/04.jpeg",
+      "/projects/materiales-escolares/05.jpeg",
+      "/projects/materiales-escolares/06.png",
+      "/projects/materiales-escolares/07.png",
+      "/projects/materiales-escolares/08.png",
+      "/projects/materiales-escolares/09.png",
+      "/projects/materiales-escolares/10.png",
+      "/projects/materiales-escolares/11.png",
+      "/projects/materiales-escolares/12.png",
+      "/projects/materiales-escolares/13.png",
+      "/projects/materiales-escolares/14.png",
+      "/projects/materiales-escolares/15.png",
+    ],
+  },
   {
     id: "cambacua-backoffice",
-    index: "01",
-    date: "2024 - 2025",
+    date: "2024 - 2026",
     title: "Cambacuá Backoffice",
     description:
       "Sistema integral para la gestión de reservas, gastos, ingresos y ganancias de departamentos y hostels de la marca. Incluye funcionalidades para calcular las comisiones y pagos correspondientes a los propietarios de los departamentos disponibles, ofreciendo una administración centralizada y eficiente.",
@@ -15,87 +96,74 @@ export const proyectos: Project[] = [
       "shadcn/ui",
       "Recharts",
       "Tailwind",
-      "NextAuth.js",
+      "Auth.js",
     ],
-    href: "#",
-    /* 
-    Legacy data:
-    image: "https://firebasestorage.googleapis.com/v0/b/portfolio-8d156.appspot.com/o/cambacua-preview-portfolio.png?alt=media&token=2361feff-04a2-49a2-8749-2a0fd664a4f2",
-    designer: "Sebastian Antonucci",
-    designerLink: "https://www.linkedin.com/in/sebastian-antonucci/",
-    */
+    images: [
+      "/projects/cambacua-backoffice/01.png",
+      "/projects/cambacua-backoffice/02.png",
+      "/projects/cambacua-backoffice/03.png",
+      "/projects/cambacua-backoffice/04.png",
+      "/projects/cambacua-backoffice/05.png",
+      "/projects/cambacua-backoffice/06.png",
+      "/projects/cambacua-backoffice/07.png",
+      "/projects/cambacua-backoffice/08.png",
+      "/projects/cambacua-backoffice/09.png",
+      "/projects/cambacua-backoffice/10.png",
+      "/projects/cambacua-backoffice/11.png",
+      "/projects/cambacua-backoffice/12.png",
+      "/projects/cambacua-backoffice/13.png",
+      "/projects/cambacua-backoffice/14.png",
+      "/projects/cambacua-backoffice/15.png",
+      "/projects/cambacua-backoffice/16.png",
+      "/projects/cambacua-backoffice/17.png",
+      "/projects/cambacua-backoffice/18.png",
+      "/projects/cambacua-backoffice/19.png",
+      "/projects/cambacua-backoffice/20.png",
+      "/projects/cambacua-backoffice/21.png",
+    ],
   },
   {
     id: "orientacion-vocacional",
-    index: "02",
     date: "2024",
     title: "Orientación Vocacional",
     description:
       "Proyecto desarrollado para el Ministerio de Educación de la Ciudad de Buenos Aires, diseñado para ayudar a las personas a descubrir sus áreas de interés, qué estudiar y dónde hacerlo. Implementación de maqueta, animaciones y comportamiento de componentes UI.",
     technologies: ["React", "CSS", "Motion", "UI/UX"],
     href: "https://orientacionvocacional.bue.edu.ar/",
-    /* 
-    Legacy data:
-    image: "https://firebasestorage.googleapis.com/v0/b/portfolio-8d156.appspot.com/o/orientacion-voc.png?alt=media&token=173a770e-645c-404e-ad84-51b543074a77",
-    dev: "Ariel Pessotano",
-    designer: "Sebastian Antonucci",
-    */
   },
   {
     id: "prana-estudio",
-    index: "03",
     date: "2022",
     title: "Prana estudio",
     description: "Maquetado y Desarrollo de la Web: Prana estudio de diseño.",
     technologies: ["HTML", "CSS", "JavaScript", "React"],
     href: "https://pranaestudio.com.ar/",
-    /* 
-    Legacy data:
-    image: "https://firebasestorage.googleapis.com/v0/b/portfolio-8d156.appspot.com/o/proyectoPrana.png?alt=media&token=2331c00f-b5fd-4f6a-ae31-aec350c7e6fd",
-    designer: "Agustin Ietta",
-    */
   },
-  {
-    id: "ecommerce",
-    index: "04",
-    date: "2022",
-    title: "Ecommerce",
-    description:
-      "Tienda de puntos utilizando herramientas modernas para la gestión de productos y carrito de compras.",
-    technologies: ["React", "Firebase", "HTML", "CSS", "JS"],
-    href: "https://ecommerce-react-two.vercel.app/",
-    /* 
-    Legacy data:
-    image: "https://firebasestorage.googleapis.com/v0/b/portfolio-8d156.appspot.com/o/proyectoEcommerce.png?alt=media&token=464eb7aa-fc17-430b-b63f-5b0f54f6f141",
-    */
-  },
-  {
-    id: "personal-argentina",
-    index: "05",
-    date: "2022",
-    title: "Personal Argentina",
-    description:
-      "Practica de maquetado y desarrollo de la Web de Personal Argentina. Implementación de lógica de negocio y manejo de datos en tiempo real.",
-    technologies: ["React", "Bootstrap 5", "SASS", "Firebase"],
-    href: "https://personal-argentina.vercel.app/",
-    /* 
-    Legacy data:
-    image: "https://firebasestorage.googleapis.com/v0/b/portfolio-8d156.appspot.com/o/personalProyect.png?alt=media&token=405bd123-4981-411b-9914-72e37a081a76",
-    */
-  },
+  // {
+  //   id: "ecommerce",
+  //   date: "2022",
+  //   title: "Ecommerce",
+  //   description:
+  //     "Tienda de puntos utilizando herramientas modernas para la gestión de productos y carrito de compras.",
+  //   technologies: ["React", "Firebase", "HTML", "CSS", "JS"],
+  //   href: "https://ecommerce-react-two.vercel.app/",
+  // },
+  // {
+  //   id: "personal-argentina",
+  //   date: "2022",
+  //   title: "Personal Argentina",
+  //   description:
+  //     "Practica de maquetado y desarrollo de la Web de Personal Argentina. Implementación de lógica de negocio y manejo de datos en tiempo real.",
+  //   technologies: ["React", "Bootstrap 5", "SASS", "Firebase"],
+  //   href: "https://personal-argentina.vercel.app/",
+  // },
   {
     id: "unidiversidad",
-    index: "06",
     date: "2021",
     title: "Unidiversidad",
     description:
       "Maquetado de la Web de Unidiversidad. Primer proyecto implementando librerías modernas de frontend.",
     technologies: ["React", "Bootstrap 5", "HTML", "CSS"],
-    href: "https://uni-diversidad-react.vercel.app/",
-    /* 
-    Legacy data:
-    image: "https://firebasestorage.googleapis.com/v0/b/portfolio-8d156.appspot.com/o/proyectoUniWeb.png?alt=media&token=7001b685-40cf-4f7a-b9c7-bd41e907541c",
-    designer: "GorillaSite Headless CMS",
-    */
+    href: "https://www.unidiversidad.com.ar/",
   },
 ];

@@ -1,13 +1,11 @@
-import { Mail, Github, Download, ArrowRight } from "lucide-react";
+import { useState } from "react";
+import { Mail, Github, Download, ArrowRight, Check } from "lucide-react";
 import Container from "../container/Container";
 import SpotlightCard from "../SpotlightCard";
 
+const EMAIL = "damianlaterza@gmail.com";
+
 const contactLinks = [
-  {
-    icon: <Mail className="size-5" />,
-    label: "damianlaterza@gmail.com",
-    href: "mailto:damianlaterza@gmail.com",
-  },
   {
     icon: <Github className="size-5" />,
     label: "github.com/DamianLtz",
@@ -36,6 +34,14 @@ const contactLinks = [
 ];
 
 export default function Contactme() {
+  const [copied, setCopied] = useState(false);
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText(EMAIL);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2500);
+  };
+
   return (
     <Container classname="py-24" as="section" id="contacto">
       <div className="flex items-center gap-4 mb-12">
@@ -60,6 +66,30 @@ export default function Contactme() {
         <div className="col-span-12 lg:col-span-6">
           <SpotlightCard className="bg-spectrum-blue-1000/50 border-gray-800 p-0 overflow-hidden backdrop-blur-sm">
             <div className="divide-y divide-gray-800/50">
+              <button
+                title="Copiar al portapapeles"
+                onClick={handleCopy}
+                className="group w-full flex items-center justify-between p-6 transition-colors hover:bg-gray-800/30 cursor-pointer"
+              >
+                <div className="flex items-center gap-4">
+                  <div className="flex size-10 items-center justify-center rounded-lg border border-gray-800 bg-gray-900 text-gray-400 transition-colors group-hover:border-spectrum-blue-500/50 group-hover:bg-spectrum-blue-500/10 group-hover:text-spectrum-blue-400">
+                    <Mail className="size-5" />
+                  </div>
+                  <span className="text-gray-300 font-medium transition-colors group-hover:text-white">
+                    {EMAIL}
+                  </span>
+                </div>
+                {copied ? (
+                  <span className="flex items-center gap-1.5 text-sm text-spectrum-blue-400">
+                    <Check className="size-4" />
+                    ¡Copiado!
+                  </span>
+                ) : (
+                  <ArrowRight className="size-5 text-gray-600 transition-all duration-300 group-hover:translate-x-1 group-hover:text-spectrum-blue-400" />
+                )}
+              </button>
+
+              {/* Resto de links */}
               {contactLinks.map((link, index) => (
                 <a
                   key={index}

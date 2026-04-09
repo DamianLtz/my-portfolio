@@ -6,10 +6,12 @@ export type Technologies = {
 
 export type Project = {
   id: string;
-  index: string;
   date: string;
   title: string;
   description: string;
   technologies: string[];
-  href: string;
+  href?: string;
+  images?: string[];
+  imageAspect?: "video" | "portrait" | "square";
+  inProgress?: boolean;
 };

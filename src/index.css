@@ -59,22 +59,22 @@
   --radius-4xl: calc(var(--radius) * 2.6);
 }
 
-/* body {
-  background-color: var(--background-body-color);
+body {
+  background-color: var(--color-spectrum-blue-600);
   transition: color 0.5s ease-in-out;
 }
 body::-webkit-scrollbar {
-  background: var(--background-body-color);
+  background: var(--color-gray-900);
   width: 0.75rem;
 }
 body::-webkit-scrollbar-thumb {
-  background: var(--grey-color-scrollbar);
+  background: var(--color-gray-700);
   border-radius: 8px;
   transition: all 0.5s ease-in-out;
 }
 body::-webkit-scrollbar-thumb:hover {
-  background: var(--primary-color);
-} */
+  background: var(--color-spectrum-blue-600);
+}
 
 body {
   font-family: "Open Sans", sans-serif;

@@ -17,6 +17,10 @@ export default function Header() {
   return (
     <motion.header
       className="fixed top-0 z-50 w-full transition-colors duration-300"
+      initial={{
+        borderBottom: "1px solid rgba(255, 255, 255, 0)",
+        backdropFilter: "blur(0px)",
+      }}
       animate={{
         borderBottom: isScrolled
           ? "1px solid rgba(255, 255, 255, 0.1)"

@@ -1,5 +1,4 @@
 import { Helmet } from "react-helmet-async";
-// import Beams from "./components/beams/Beams";
 import Header from "./components/header/Header";
 import Hero from "./components/sections/Hero";
 import Projects from "./components/sections/Projects";
@@ -54,16 +53,6 @@ function App() {
       <Header />
       <div className="relative w-full h-dvh">
         <div className="absolute inset-0 z-0">
-          {/* <Beams
-            beamWidth={3}
-            beamHeight={30}
-            beamNumber={20}
-            lightColor="#1e50f4"
-            speed={3.5}
-            noiseIntensity={1.5}
-            scale={0.2}
-            rotation={30}
-          /> */}
           <DarkVeil hueShift={20} speed={1.5} />
           <div className="absolute bottom-0 left-0 w-full h-48 md:h-96 bg-linear-to-t from-[#080808] to-transparent pointer-events-none" />
         </div>
